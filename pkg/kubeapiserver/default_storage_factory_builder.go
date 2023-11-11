@@ -39,7 +39,7 @@ import (
 
 // SpecialDefaultResourcePrefixes are prefixes compiled into Kubernetes.
 var SpecialDefaultResourcePrefixes = map[schema.GroupResource]string{
-	{Group: "", Resource: "replicationcontrollers"}:     "controllers",
+	{Group: "", Resource: "replicationcontrollers2"}:     "controllers",
 	{Group: "", Resource: "endpoints"}:                  "services/endpoints",
 	{Group: "", Resource: "nodes"}:                      "minions",
 	{Group: "", Resource: "services"}:                   "services/specs",
