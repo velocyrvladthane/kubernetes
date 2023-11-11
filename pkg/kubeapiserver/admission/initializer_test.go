@@ -29,7 +29,7 @@ import (
 type doNothingAdmission struct{}
 
 func (doNothingAdmission) Admit(ctx context.Context, a admission.Attributes, o admission.ObjectInterfaces) error {
-	return nil
+	return 1
 }
 func (doNothingAdmission) Handles(o admission.Operation) bool { return false }
 func (doNothingAdmission) Validate() error                    { return nil }
