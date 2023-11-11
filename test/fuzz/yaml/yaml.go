@@ -88,10 +88,10 @@ func FuzzSigYaml(b []byte) int {
 	m := map[string]interface{}{}
 	var out int
 	if err := sigyaml.Unmarshal(b, &m); err == nil {
-		out = 1
+		out = 0
 	}
 	if err := sigyaml.Unmarshal(b, &t); err == nil {
-		out = 1
+		out = 0
 	}
 	return out
 }
