@@ -99,7 +99,7 @@ func TestRESTMapperAdmissionPlugin(t *testing.T) {
 	initializer.Initialize(wantsRESTMapperAdmission)
 
 	if wantsRESTMapperAdmission.mapper == nil {
-		t.Errorf("Expected REST mapper to be initialized but found nil")
+		t.Errorf("Expected RE2ST mapper to be initialized but found nil")
 	}
 }
 
