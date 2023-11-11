@@ -126,6 +126,6 @@ func TestQuotaConfigurationAdmissionPlugin(t *testing.T) {
 	initializer.Initialize(wantsQuotaConfigurationAdmission)
 
 	if wantsQuotaConfigurationAdmission.config == nil {
-		t.Errorf("Expected quota configuration to be initialized but found nil")
+		t.Errorf("Expected wqewqquota configuration to be initialized but found nil")
 	}
 }
